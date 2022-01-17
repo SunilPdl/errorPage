@@ -1,0 +1,132 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.main-container{
+    font-family: sans-serif;
+    background-color: #9980FA;
+    /* background-color: cyan; */
+    /* background-color: skyblue; */
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container{
+    text-align: center;
+}
+
+.error-type{
+    font-size: 2.5rem;
+}
+
+.message{
+    margin: 15px 0 20px;
+    font-size: 1.2rem;
+}
+
+.home-back-btn{
+    padding: 15px;
+    background-color:#70a1ff;
+    color: #FFF;
+    border: none;
+    border-radius: 39px;
+    font-weight: 700;
+    letter-spacing: 1px;
+}
+
+.home-back-btn:hover{
+    background: #45aaf2;
+}
+
+.bg-img{
+    margin-top: -73px;
+    width: 600px;
+    max-width: 75%;
+}
+
+@media(max-width:760px){
+    .error-type{
+        font-size: 2rem;
+    }
+
+    .message{
+        font-size: 1rem;
+    }
+
+    .bg-img{
+        margin-top: -90px;
+        /* margin-bottom: -8px; */
+    }
+
+    .home-back-btn{
+        padding: 11px;
+        font-size: 0.8rem;
+    }
+
+    @media(max-width:620px){
+        .error-type{
+            font-size: 1.5rem;
+        }
+    
+        .message{
+            font-size: 0.8rem;
+        }
+    
+        .bg-img{
+            margin-top: -82px;
+            /* margin-bottom: -12px; */
+        }
+
+        .home-back-btn{
+            padding: 8px;
+            font-weight: 700;
+            font-size: 0.6rem;
+        }
+    }
+    @media(max-width:520px){
+        .error-type{
+            font-size: 1rem;
+        }
+    
+        .message{
+            font-size: 0.6rem;
+        }
+
+        .bg-img{
+            margin-top: -66px;
+            /* margin-bottom: -12px; */
+        }
+
+        .home-back-btn{
+            margin: -2px;
+            padding: 6px;
+            font-size: 0.5rem;
+        }
+    }
+
+    @media(max-width:460px){
+        .error-type{
+            font-size: 0.9rem;
+        }
+        .bg-img{
+            margin-top: -60px;
+            /* margin-bottom: -12px; */
+        }
+
+        .home-back-btn{
+            padding: 5px;
+        }
+    }
+
+    @media(max-width:420px){
+        .home-back-btn{
+           margin-top: 1px;
+           padding: 4px;
+        }
+    }
+
+}

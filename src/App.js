@@ -1,24 +1,15 @@
-import logo from './logo.svg';
 import './App.css';
+// import PageNotFound from './components/errorPage/PageNotFound';
+import PageNotFound from './components/errorpage2/PageNotFound';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+      <PageNotFound 
+      type="Page Not Found Error!"
+      msg="Sorry, The page you were looking for could not be found."
+      />
+    </>
   );
 }
 
